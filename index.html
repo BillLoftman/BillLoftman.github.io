@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Setup for tab title/icon, and linking ot stylesheet -->
+  <title>Loftman Inc.</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="images/logo_dark.png">
+</head>
+<body>
+
+    <div class="main">
+      <!-- Navbar -->
+      <div class="navbar">
+        <a href="#index.html"><b>Home</b></a>
+        <div class="dropdown">
+          <button class="dropbtn">Education</button>
+          <div class="dropdown-content">
+            <a href="Global_Warming.html">Global Warming</a>
+            <a href="Human_Land_Impact.html">Human Land Impact</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Droneswarm</button>
+          <div class="dropdown-content">
+            <a href="Droneswarm.html">Home</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Dartboard</button>
+          <div class="dropdown-content">
+            <a href="Dartboard.html">Home</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Tickle Me Elmo</button>
+          <div class="dropdown-content">
+            <a href="Tickel_Me_Elmo.html">Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- sideshow image import -->
+    <div class="slide" style="max-width:1280px">
+      <img class="mySlides" src="images/Elmo.png" style="width:100%">
+      <img class="mySlides" src="images/Dart.png" style="width:100%">
+      <img class="mySlides" src="images/globalwarming.png" style="width:100%">
+      <img class="mySlides" src="images/droneswarm.png" style="width:100%">
+    </div>
+
+    <!-- JavaScript script inserted to animate the switching of the slides -->
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 5000);
+    }
+    </script>
+
+    <div class="title">
+      <h1>Loftman Inc.</h1>
+    </div>
+
+    <div class=arrow>
+      <img src="images/arrow.png">
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>
