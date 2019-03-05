@@ -134,7 +134,7 @@ body, html {
 /*infograph header location and format*/
 .infograph_h{
   font-family: font_1;
-  padding-left: 170px;
+  padding-left: 10%;
   font-size: 30px;
   padding-top: 800px;
   color: #333;
@@ -143,7 +143,7 @@ body, html {
 .infograph p {
   font-size: 30px;
   font-family: font_1;
-  padding-left: 280px;
+  padding-left: 12%;
   padding-right: 200px;
   color: #333;
 }
@@ -177,7 +177,7 @@ body, html {
 /*effect header location/format*/
 .effect_h{
   font-family: font_1;
-  padding-left: 170px;
+  padding-left: 10%;
   font-size: 30px;
   padding-top: 30px;
   color: #333;
@@ -186,7 +186,7 @@ body, html {
 .effects{
   font-size: 30px;
   font-family: font_1;
-  padding-left: 280px;
+  padding-left: 12%;
   padding-right: 200px;
   color: #333;
 }
@@ -215,7 +215,7 @@ body, html {
 /*solution header location/format*/
 .Solutions_h{
   font-family: font_1;
-  padding-left: 170px;
+  padding-left: 10%;
   font-size: 30px;
   padding-top: 30px;
   color: #333;
@@ -224,7 +224,7 @@ body, html {
 .Solutions{
   font-size: 30px;
   font-family: font_1;
-  padding-left: 280px;
+  padding-left: 12%;
   padding-right: 200px;
   color: #333;
 }
