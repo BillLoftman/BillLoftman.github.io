@@ -1,0 +1,126 @@
+/* font inmport */
+@font-face {
+  font-family: "font_1";
+  src: "fonts/Thasadith-Regular.ttf";
+
+}
+
+
+body{
+    background-color: white;
+}
+
+
+{
+  margin: 0;
+  padding: 0;
+}
+/* navbar color setup */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 0px;
+}
+/* navbar location setup */
+.navbar a {
+
+  float: left;
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+
+}
+/* dropdown setup */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* dropdown fomat */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/*navbar hover color*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+/*dropdown color*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/*dropdown location*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*dropdown hover format*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.main {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px
+}
+
+
+
+
+body, html {
+    height: 100%;
+}
+
+
+
+.head{
+
+}
+
+.terms{
+
+}
+
+/*footer location*/
+.footer{
+  position: relative;
+  width: 100.9%;
+  height: 125px;
+  background-color: #333;
+  margin-left: -10px;
+  margin-bottom: -8px;
+
+}
+/* footer logo setup*/
+.footer{
+  background-image: url("images/logo.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
